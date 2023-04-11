@@ -1,0 +1,216 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ING",
+		"_postman_id": "d8681295-73f0-dddf-caa0-fdc5b9460a97",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/public/listAllProducts",
+			"request": {
+				"url": "http://localhost:8080/api/public/listAllProducts",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/public/findProduct?id=1",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/api/public/findProduct?id=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"public",
+						"findProduct"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/user/addToCart?id=7",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/api/user/addToCart?id=7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"addToCart"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "7",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/user/listCart",
+			"request": {
+				"url": "http://localhost:8080/api/user/listCart",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic dXNlcjE6cGFzc3dvcmQx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/admin/deleteProduct?id=10",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/api/admin/deleteProduct?id=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"admin",
+						"deleteProduct"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "10",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW5pc3RyYXRvcjphZG1pbg==",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/admin/addProduct",
+			"request": {
+				"url": "http://localhost:8080/api/admin/addProduct",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW5pc3RyYXRvcjphZG1pbg==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Test produs\",\n\"description\":\"Descriere test\",\n\"price\": 70.64\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/admin/updateProductPrice?id=7&price=4.57",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/api/admin/updateProductPrice?id=7&price=4.57",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"admin",
+						"updateProductPrice"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "7",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "price",
+							"value": "4.57",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW5pc3RyYXRvcjphZG1pbg==",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

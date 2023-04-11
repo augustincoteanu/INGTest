@@ -1,0 +1,52 @@
+{"products": [
+  {
+    "name": "Telefon Samsung Galaxy S21",
+    "description": "Telefon inteligent Samsung Galaxy S21 cu ecran de 6,2 inch, 128 GB stocare și cameră principală triplă de 64 MP.",
+    "price": 3599.99
+  },
+  {
+    "name": "Laptop Dell XPS 13",
+    "description": "Laptop ultra-subțire Dell XPS 13 cu ecran de 13,4 inch, procesor Intel Core i7 de generația a 11-a și 512 GB stocare SSD.",
+    "price": 8999.99
+  },
+  {
+    "name": "Televizor LG OLED CX",
+    "description": "Televizor OLED LG CX cu ecran de 65 inch, rezoluție 4K, tehnologie HDR și sistem de operare webOS.",
+    "price": 11999.99
+  },
+  {
+    "name": "Smartwatch Apple Watch Series 6",
+    "description": "Smartwatch Apple Watch Series 6 cu ecran always-on, măsurători avansate de sănătate și fitness și GPS integrat.",
+    "price": 2699.99
+  },
+  {
+    "name": "Consolă Sony PlayStation 5",
+    "description": "Consolă de jocuri Sony PlayStation 5 cu procesor AMD Zen 2 și GPU RDNA 2, 825 GB stocare și suport pentru jocuri 4K.",
+    "price": 3799.99
+  },
+  {
+    "name": "Tabletă Apple iPad Pro",
+    "description": "Tabletă Apple iPad Pro cu ecran Liquid Retina de 12,9 inch, procesor M1 și 128 GB stocare.",
+    "price": 6499.99
+  },
+  {
+    "name": "Boxe Sonos Five",
+    "description": "Boxe de înaltă fidelitate Sonos Five cu amplificare digitală, conectivitate Wi-Fi și suport pentru controlul vocal.",
+    "price": 3599.99
+  },
+  {
+    "name": "Sistem de supraveghere Nest Cam IQ",
+    "description": "Sistem de supraveghere video Nest Cam IQ cu rezoluție 4K, detector de mișcare și sunet și comunicare bidirecțională.",
+    "price": 1199.99
+  },
+  {
+    "name": "Drone DJI Mavic Air 2",
+    "description": "Drone DJI Mavic Air 2 cu cameră 4K, autonomie de zbor de până la 34 de minute și senzori pentru evitarea obstacolelor.",
+    "price": 5999.99
+  },
+  {
+    "name": "Auricolare wireless Sony WF-1000XM4",
+    "description": "Auricolare wireless Sony WF-1000XM4 cu tehnologie avansată de anulare a zgomotului, autonomie de până la 8 ore și suport pentru controlul vocal.",
+    "price": 1499.99
+  }]
+}
